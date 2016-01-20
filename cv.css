@@ -1,0 +1,87 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+li{
+list-style: none;
+display:inline;	
+font-size: 35px;
+margin: 15px;
+}
+
+.menu ul{ 
+background-color: #008B8B	
+}
+
+li:hover:not(:first-child){
+border-bottom: 3px solid white;
+padding-bottom: 2px;
+}
+
+.menu {
+line-height : 100px;
+max-height : 5000px;
+min-height : 10px;
+max-width : 2000px;
+min-width : 1000px;
+}
+
+li a{
+font-family: arial;
+color: white;
+text-decoration:none;
+}
+
+li:first-child{
+border: 2px white solid;
+border-radius: 10px;
+padding: 3px;
+float: right;
+margin-right:15%;
+line-height:200%;
+}
+
+li:nth-child(2){
+margin-left: 15%;
+}
+
