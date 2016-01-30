@@ -19,8 +19,23 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-body{
-	background-image :url("http://image.noelshack.com/fichiers/2016/04/1454167071-robotbg.jpg");
+#apropos{
+	background-image :url("opensource.jpg");
+	background-size : 100% 100%;
+	background-repeat: no-repeat;
+	width:100%;
+}
+
+#contact{
+		background-image :url("worldmap.png");
+	background-size : 100% 100%;
+	background-repeat: no-repeat;
+	width:100%;
+	
+}
+
+#site{
+	background-image :url("robotBG.jpg");
 	background-size : 100% 100%;
 	background-repeat: no-repeat;
 	width:100%;
@@ -41,12 +56,12 @@ div{
   text-align: center;
 }
 
-#textAccueil {
+.textAccueil {
 	background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  top: 80%;
+  left: 35%;
+  transform: translateX(-28%) translateY(-50%);
   line-height: normal;
 	text-align : center;
 	font-family: Calibri, sans-serif;
@@ -57,6 +72,8 @@ div{
   -webkit-border-radius: 8px;
   border-radius: 8px;
 	padding : 10px;
+	padding-left : 40px;
+	padding-right : 40px;
 }
 
 li:hover{
@@ -83,6 +100,8 @@ ul li {display: inline-block;}
 }
 
 .contact {
+position: relative;
+top: 35%;
 background-color: rgba(0, 0, 0, 0.5);
 line-height: normal;  
 font-family: Calibri, sans-serif;
@@ -91,8 +110,9 @@ color: whitesmoke;
 text-decoration:none;
 border-radius: 8px;
 margin-top : 10%;
-margin-left : 10%;
+margin-left : 12%;
 float:left;
+padding : 5px
 }
 
 li a{
