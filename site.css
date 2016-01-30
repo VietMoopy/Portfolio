@@ -59,6 +59,32 @@ font-size: 35px;
 margin: 40px;
 }
 
+section{
+ width: 1000px;
+ height: 1000px;
+}
+
+div{
+ width: 300px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+span {
+background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  line-height: normal;  
+	font-family: arial;
+font-size: 35px;
+color: whitesmoke;
+text-decoration:none;
+	
+}
+
 .menu ul{ 
 background-color: #008B8B
 text-align: center;
