@@ -78,11 +78,13 @@ background-color: rgba(0, 0, 0, 0.5);
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   line-height: normal;  
-	font-family: arial;
+ font-family: Calibri, sans-serif;
 font-size: 35px;
 color: whitesmoke;
 text-decoration:none;
-	
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
 }
 
 .menu ul{ 
@@ -107,7 +109,7 @@ min-width : 1000px;
 }
 
 li a{
-font-family: arial;
+font-family: Calibri, sans-serif;
 color: white;
 text-decoration:none;
 }
