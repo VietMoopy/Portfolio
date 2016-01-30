@@ -1,12 +1,5 @@
 
 
-body{
-	background-image :url("http://www.ilyes-litim.fr/_include/img/slider-images/image01.jpg");
-	background-size : 2000px;
-	background-repeat: no-repeat;
-}
-
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -27,11 +20,19 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+body{
+	background-image :url("http://image.noelshack.com/fichiers/2016/04/1454167071-robotbg.jpg");
+	background-size : 2000px;
+	background-repeat: no-repeat;
+}
+
 body {
 	line-height: 1;
 }
@@ -55,7 +56,7 @@ li{
 list-style: none;
 display:inline;	
 font-size: 35px;
-margin: 15px;
+margin: 40px;
 }
 
 .menu ul{ 
@@ -66,7 +67,7 @@ width: 100%;
 box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
-li:hover:not(:first-child){
+li:hover{
 border-bottom: 3px solid white;
 padding-bottom: 2px;
 }
@@ -83,7 +84,6 @@ li a{
 font-family: arial;
 color: white;
 text-decoration:none;
-padding-left:40px;
 }
 
 .titreDroite{
