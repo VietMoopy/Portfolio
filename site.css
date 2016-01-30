@@ -33,9 +33,6 @@ body{
 	background-repeat: no-repeat;
 }
 
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -60,8 +57,7 @@ margin: 40px;
 }
 
 section{
- width: 1000px;
- height: 1000px;
+	height: 500px;
 }
 
 div{
@@ -71,7 +67,7 @@ div{
   text-align: center;
 }
 
-span {
+#textAccueil {
 background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 50%;
@@ -82,8 +78,6 @@ background-color: rgba(0, 0, 0, 0.5);
 font-size: 35px;
 color: whitesmoke;
 text-decoration:none;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
   border-radius: 8px;
 }
 
@@ -106,6 +100,19 @@ max-height : 5000px;
 min-height : 10px;
 max-width : 2000px;
 min-width : 1000px;
+}
+
+.contact{
+background-color: rgba(0, 0, 0, 0.5);
+line-height: normal;  
+font-family: Calibri, sans-serif;
+font-size: 24px;
+color: whitesmoke;
+text-decoration:none;
+border-radius: 8px;
+float: left;
+margin-top : 200px;
+margin-left : 200px;
 }
 
 li a{
