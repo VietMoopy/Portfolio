@@ -1,9 +1,9 @@
 
 
 body{
-	background-image :url("http://www.tuxboard.com/photos/2013/01/Photo-Espace-2012-19.jpg");
-	width : 100%;
-	height : 100%;
+	background-image :url("http://www.ilyes-litim.fr/_include/img/slider-images/image01.jpg");
+	background-size : 2000px;
+	background-repeat: no-repeat;
 }
 
 
@@ -59,7 +59,8 @@ margin: 15px;
 }
 
 .menu ul{ 
-background-color: #008B8B	
+background-color: #008B8B
+opacity : .5;
 }
 
 li:hover:not(:first-child){
