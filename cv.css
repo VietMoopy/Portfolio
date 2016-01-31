@@ -19,34 +19,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-#apropos{
-	background-image :url("opensource.jpg");
-	background-size : 100% 100%;
-	background-repeat: no-repeat;
-	width:100%;
-}
-
-#contact{
-		background-image :url("worldmap.png");
-	background-size : 100% 100%;
-	background-repeat: no-repeat;
-	width:100%;
-}
-
-#gallery{
-	background-image :url("http://www.wallpaperox.com/wp-content/uploads/2016/01/Flat-Minimal-Wallpaper-Top-AL4.png");
-	background-size : 100% 100%;
-	background-repeat: no-repeat;
-	width:100%;
-}
-
-#site{
-	background-image :url("robotBG.jpg");
-	background-size : 100% 100%;
-	background-repeat: no-repeat;
-	width:100%;
-}
-
 section{
 height : 800px;
 }
@@ -136,4 +108,41 @@ ul li ul {
 ul li ul li{
 	background-color: rgba(0,0,0,0.1);
 	display: block;
+}
+
+
+#alex{
+	background-color : #355C7D;
+	width:100%;
+}
+
+h1{
+	font-family: Calibri, sans-serif;
+	color: white;
+	font-size : 50px;
+}
+
+section{
+height : 800px;
+}
+
+footer{
+	height : 200px;
+}
+
+div{
+	margin-left : 20px;
+}
+
+p{
+	margin-left : 40px;
+	font-family: Calibri, sans-serif;
+	color: white;
+	font-size : 22px;
+}
+
+.categorie{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size : 25px;
+	color:white;
 }
