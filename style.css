@@ -11,49 +11,49 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
 }
 
 #apropos{
-	background-image :url("opensource.jpg");
-	background-size : 100% 100%;
-	background-repeat: no-repeat;
-	width:100%;
+ background-image :url("opensource.jpg");
+ background-size : 100% 100%;
+ background-repeat: no-repeat;
+ width:100%;
 }
 
 #contact{
-		background-image :url("worldmap.png");
-	background-size : 100% 100%;
-	background-repeat: no-repeat;
-	width:100%;
+  background-image :url("worldmap.png");
+ background-size : 100% 100%;
+ background-repeat: no-repeat;
+ width:100%;
 }
 
 #gallery{
-	background-image :url("http://www.wallpaperox.com/wp-content/uploads/2016/01/Flat-Minimal-Wallpaper-Top-AL4.png");
-	background-size : 100% 100%;
-	background-repeat: no-repeat;
-	width:100%;
+ background-image :url("http://www.adriansevent.com/wp-content/uploads/2014/09/background-galerie-photos1.jpg");
+ background-size : 100% 100%;
+ background-repeat: no-repeat;
+ width:100%;
 }
 
 #site{
-	background-image :url("robotBG.jpg");
-	background-size : 100% 100%;
-	background-repeat: no-repeat;
-	width:100%;
+ background-image :url("robotBG.jpg");
+ background-size : 100% 100%;
+ background-repeat: no-repeat;
+ width:100%;
 }
 
 section{
-height : 800px;
+height : 1000px;
 }
 
 footer{
-		margin-left : 10px;
-	  position: fixed; 
+  margin-left : 10px;
+   position: fixed; 
     bottom: 0;
     left: 0;
     right: 0;
@@ -64,46 +64,46 @@ div{
 }
 
 .textAccueil {
-	background-color: rgba(0, 0, 0, 0.5);
+ background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 80%;
   left: 35%;
   transform: translateX(-28%) translateY(-50%);
   line-height: normal;
-	text-align : center;
-	font-family: Calibri, sans-serif;
-	font-size: 35px;
-	color: whitesmoke;
-	text-decoration:none;
+ text-align : center;
+ font-family: Calibri, sans-serif;
+ font-size: 35px;
+ color: whitesmoke;
+ text-decoration:none;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
-	padding : 10px;
-	padding-left : 40px;
-	padding-right : 40px;
+ padding : 10px;
+ padding-left : 40px;
+ padding-right : 40px;
 }
 
 li:hover{
-	background-color: rgba(255, 255, 255, 0.1);
+ background-color: rgba(255, 255, 255, 0.1);
 }
 
 ul li {display: inline-block;}
 
 .menu {
-	top:0px;
-	left:0px;
-	font-size:32px;
-	text-align :center;
-	width:100%;
-	background-color: #008B8B;
-	background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.2) 75%, rgba(0,0 , 0, 0) 100%);
-	width: 100%;
-	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+ top:0px;
+ left:0px;
+ font-size:32px;
+ text-align :center;
+ width:100%;
+ background-color: #008B8B;
+ background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.2) 75%, rgba(0,0 , 0, 0) 100%);
+ width: 100%;
+ box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
 .menu a{
-	padding: 30px;
-	display:inline-block;
+ padding: 30px;
+ display:inline-block;
 }
 
 .contact {
@@ -123,30 +123,36 @@ padding : 5px
 }
 
 li a{
-	font-family: Calibri, sans-serif;
-	color: white;
-	text-decoration:none;
-	font-size : 28px;
+ font-family: Calibri, sans-serif;
+ color: white;
+ text-decoration:none;
 }
 
 li:hover ul {
-	display: block;
+ display: block;
 }
 
 ul li ul {
-	position: absolute;
+ position: absolute;
   width: 260px;
   display: none;
 }
 
 ul li ul li{
-	background-color: rgba(0,0,0,0.1);
-	display: block;
+ background-color: rgba(0,0,0,0.4);
+ display: block;
 }
 
 .footertext{
-	font-family: Calibri, sans-serif;
-	font-size : 15px;
-	color: white;
-	text-decoration:none;
+ font-family: Calibri, sans-serif;
+ font-size : 15px;
+ color: white;
+ text-decoration:none;
+}
+
+#image{
+	width: 700px;
+	margin-top:10%;
+	margin-left:30%;
+	box-shadow: 1px 1px 12px #999;
 }
