@@ -23,10 +23,6 @@ section{
 height : 800px;
 }
 
-footer{
-	height : 200px;
-}
-
 div{
 }
 
@@ -116,18 +112,24 @@ ul li ul li{
 	width:100%;
 }
 
+#benjamin{
+		background-color : #5A5050;
+	width:100%;
+}
+
 h1{
 	font-family: Calibri, sans-serif;
 	color: white;
 	font-size : 50px;
 }
 
-section{
-height : 800px;
-}
-
 footer{
-	height : 200px;
+		margin-left : 10px;
+	  position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
 }
 
 div{
@@ -145,4 +147,11 @@ p{
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size : 25px;
 	color:white;
+}
+
+.footertext{
+	font-family: Calibri, sans-serif;
+	font-size : 15px;
+	color: white;
+	text-decoration:none;
 }
