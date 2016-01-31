@@ -19,6 +19,11 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+#alex{
+	background-color : #355C7D;
+	width:100%;
+}
+
 #apropos{
 	background-image :url("opensource.jpg");
 	background-size : 100% 100%;
