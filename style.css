@@ -31,7 +31,13 @@ time, mark, audio, video {
 	background-size : 100% 100%;
 	background-repeat: no-repeat;
 	width:100%;
-	
+}
+
+#gallery{
+	background-image :url("http://www.wallpaperox.com/wp-content/uploads/2016/01/Flat-Minimal-Wallpaper-Top-AL4.png");
+	background-size : 100% 100%;
+	background-repeat: no-repeat;
+	width:100%;
 }
 
 #site{
@@ -134,4 +140,80 @@ ul li ul {
 ul li ul li{
 	background-color: rgba(0,0,0,0.1);
 	display: block;
+}
+
+.contener_slideshow
+{
+	margin-top : 50%;
+	margin-left : 300%;
+  width:610px;
+  height:211px;
+  overflow: hidden;
+  position: relative;
+  background-image: url(robotBG.jpg);
+	
+}
+.slid_1, .slid_2, .slid_3
+{
+  position: absolute;
+  width:610px;
+  height:211px;
+}
+.slid_1{left: 0;}
+.slid_2{left: 610px;}
+.slid_3{left: 1220px;}
+.contener_slide
+{
+  width: 1220px;
+  height: 211px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: anim_slide;
+  -moz-animation-duration: 10s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: anim_slide;
+  -ms-animation-duration: 10s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: anim_slide;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+@-webkit-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-610px;}
+  45% {left:-610px;}
+  66% {left:-1220px;}
+  90% {left:-1220px;}
+}
+@-moz-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-610px;}
+  45% {left:-610px;}
+  66% {left:-1220px;}
+  90% {left:-1220px;}
+}
+@-ms-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-610px;}
+  45% {left:-610px;}
+  66% {left:-1220px;}
+  90% {left:-1220px;}
+}
+@keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-610px;}
+  45% {left:-610px;}
+  66% {left:-1220px;}
+  90% {left:-1220px;}
 }
