@@ -19,219 +19,216 @@ time, mark, audio, video {
  vertical-align: baseline;
 }
 
-section{
-height : 1200px;
+#alex {
+background-color:#355C7D;
+width:100%;
 }
 
-div{
+#benjamin {
+background-color:#5A5050;
+width:100%;
 }
 
-.textAccueil {
- background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 80%;
-  left: 35%;
-  transform: translateX(-28%) translateY(-50%);
-  line-height: normal;
- text-align : center;
- font-family: Calibri, sans-serif;
- font-size: 35px;
- color: whitesmoke;
- text-decoration:none;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
- padding : 10px;
- padding-left : 40px;
- padding-right : 40px;
+#bord {
+border:10px double rgb(146,64,106);
+position:absolute;
+top:1070px;
+width:1420px;
 }
 
-li:hover{
- background-color: rgba(255, 255, 255, 0.1);
+#bord2 {
+border:10px double rgb(85,101,175);
 }
 
-ul li {display: inline-block;}
-
-.menu {
- top:0px;
- left:0px;
- font-size:32px;
- text-align :center;
- width:100%;
- background-color: #008B8B;
- background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.2) 75%, rgba(0,0 , 0, 0) 100%);
- width: 100%;
- box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+#info0 {
+color:white;
+font-size:25px;
+left:70px;
+position:absolute;
+top:620px;
 }
 
-.menu a{
- padding: 30px;
- display:inline-block;
+#info2 {
+color:white;
+font-size:40px;
+left:550px;
+position:absolute;
+top:450px;
+}
+
+#info3 {
+color:white;
+font-size:25px;
+left:70px;
+position:absolute;
+top:820px;
+}
+
+#info4 {
+color:white;
+font-size:25px;
+left:1100px;
+position:absolute;
+top:620px;
+}
+
+#info5 {
+color:white;
+font-size:25px;
+left:1100px;
+position:absolute;
+top:820px;
+}
+
+#nico {
+background-image:url(http://images5.alphacoders.com/432/432766.jpg);
+font-family:Calibri, sans-serif;
+}
+
+#photonico {
+box-shadow:8px 8px 12px #aaa;
+height:200px;
+left:1200px;
+position:absolute;
+top:220px;
+width:auto;
+}
+
+#tcv {
+color:white;
+font-size:40px;
+}
+
+.categorie {
+color:white;
+font-family:"Arial Black", Gadget, sans-serif;
+font-size:25px;
 }
 
 .contact {
-position: relative;
-top: 35%;
-background-color: rgba(0, 0, 0, 0.5);
-line-height: normal;  
-font-family: Calibri, sans-serif;
-font-size: 24px;
-color: whitesmoke;
-text-decoration:none;
-border-radius: 8px;
-margin-top : 10%;
-margin-left : 12%;
+background-color:rgba(0,0,0,0.5);
+border-radius:8px;
+color:whitesmoke;
 float:left;
-padding : 5px
+font-family:Calibri, sans-serif;
+font-size:24px;
+line-height:normal;
+margin-left:12%;
+margin-top:10%;
+padding:5px;
+position:relative;
+text-decoration:none;
+top:35%;
 }
 
-li a{
- font-family: Calibri, sans-serif;
- color: white;
- text-decoration:none;
+.footertext {
+color:white;
+font-family:Calibri, sans-serif;
+font-size:15px;
+text-decoration:none;
+}
+
+.info1 {
+color:white;
+font-size:25px;
+height:200px;
+left:80px;
+position:absolute;
+top:220px;
+width:auto;
+}
+
+.menu {
+background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.2) 75%, rgba(0,0 , 0, 0) 100%);
+background-color:#008B8B;
+box-shadow:0 0 25px rgba(0,0,0,0.1), inset 0 0 1px rgba(255,255,255,0.6);
+font-size:32px;
+left:0;
+text-align:center;
+top:0;
+width:100%;
+}
+
+.menu a {
+display:inline-block;
+padding:30px;
+}
+
+.textAccueil {
+-moz-border-radius:8px;
+-webkit-border-radius:8px;
+background-color:rgba(0,0,0,0.5);
+border-radius:8px;
+color:whitesmoke;
+font-family:Calibri, sans-serif;
+font-size:35px;
+left:35%;
+line-height:normal;
+padding:10px;
+padding-left:40px;
+padding-right:40px;
+position:absolute;
+text-align:center;
+text-decoration:none;
+top:80%;
+transform:translateX(-28%) translateY(-50%);
+}
+
+div.cv {
+margin-left:20px;
+}
+
+footer {
+bottom:0;
+height:75px;
+left:0;
+margin-left:10px;
+position:fixed;
+right:0;
+}
+
+h1 {
+color:white;
+font-family:Calibri, sans-serif;
+font-size:50px;
+}
+
+li a {
+color:white;
+font-family:Calibri, sans-serif;
+text-decoration:none;
+}
+
+li:hover {
+background-color:rgba(255,255,255,0.1);
 }
 
 li:hover ul {
- display: block;
+display:block;
+}
+
+p {
+color:white;
+font-family:Calibri, sans-serif;
+font-size:22px;
+margin-left:40px;
+}
+
+section {
+height:1200px;
+}
+
+ul li {
+display:inline-block;
 }
 
 ul li ul {
- position: absolute;
-  width: 260px;
-  display: none;
+display:none;
+position:absolute;
+width:260px;
 }
 
-ul li ul li{
- background-color: rgba(0,0,0,0.4);
- display: block;
-}
-
-
-#alex{
- background-color : #355C7D;
- width:100%;
-}
-
-#benjamin{
-  background-color : #5A5050;
- width:100%;
-}
-
-h1{
- font-family: Calibri, sans-serif;
- color: white;
- font-size : 50px;
-}
-
-footer{
-  margin-left : 10px;
-   position: fixed; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 75px;
-}
-
-div.cv{
- margin-left : 20px;
-}
-
-p{
- margin-left : 40px;
- font-family: Calibri, sans-serif;
- color: white;
- font-size : 22px;
-}
-
-.categorie{
- font-family: "Arial Black", Gadget, sans-serif;
- font-size : 25px;
- color:white;
-}
-
-.footertext{
- font-family: Calibri, sans-serif;
- font-size : 15px;
- color: white;
- text-decoration:none;
-}
-
-#nico{
-background-image :url("http://images5.alphacoders.com/432/432766.jpg");
-font-family: Calibri, sans-serif;
-}
-
-#tcv{
-
-color :white ;
-font-size : 40px;
-}
-
-.info1{
-
-position :absolute ;
-color:white;
-font-size:25px;
- height: 200px;
-width: auto;
-	left: 80px;
-	top : 220px;
-}
-
-#photonico{
- position : absolute;
- height: 200px;
-width: auto;
-	left: 1200px;
-	top : 220px;
-	box-shadow: 8px 8px 12px #aaa;
-}
-
-#info2{
-font-size:40px;
-color:white;
-position : absolute;
-left: 550px;
-	top : 450px;
-}
-#info0{
-font-size:25px;
-color:white;
-position : absolute;
-left: 70px;
-	top : 620px;
-}
-#info3{
-font-size:25px;
-color:white;
-position : absolute;
-left: 70px;
-	top : 820px;
-}
-#info4{
-font-size:25px;
-color:white;
-position : absolute;
-left: 1100px;
-	top : 620px;
-}
-
-#info5{
-font-size:25px;
-color:white;
-position : absolute;
-left: 1100px;
-	top : 820px;
-}
-
-#bord{
-	position :absolute;
-border : 10px double rgb(146, 64, 106) ;
-	top: 1070px;
-	width: 1420px;
-
-}
-
-#bord2{
-border : 10px double rgb(85, 101, 175) ;
+ul li ul li {
+background-color:rgba(0,0,0,0.4);
+display:block;
 }
