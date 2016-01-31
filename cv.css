@@ -155,18 +155,16 @@ p{
  color: white;
  text-decoration:none;
 }
+
 #nico{
 background-image :url("http://images5.alphacoders.com/432/432766.jpg");
 font-family: Calibri, sans-serif;
 }
 
 #tcv{
-position : absolute;
 
 color :white ;
 font-size : 40px;
-top :150px;
-	left : 500px;
 }
 
 .info1{
@@ -180,7 +178,7 @@ width: auto;
 	top : 220px;
 }
 
-img{
+#photonico{
  position : absolute;
  height: 200px;
 width: auto;
