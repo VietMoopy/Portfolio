@@ -31,6 +31,7 @@ time, mark, audio, video {
 	background-size : 100% 100%;
 	background-repeat: no-repeat;
 	width:100%;
+<<<<<<< HEAD
 }
 
 #gallery{
@@ -38,6 +39,9 @@ time, mark, audio, video {
 	background-size : 100% 100%;
 	background-repeat: no-repeat;
 	width:100%;
+=======
+	
+>>>>>>> 4825d2ee4288fc50ab5ffd5e0a24aa3bb198c6e5
 }
 
 #site{
@@ -56,6 +60,13 @@ footer{
 }
 
 div{
+<<<<<<< HEAD
+=======
+	width: 300px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+>>>>>>> 4825d2ee4288fc50ab5ffd5e0a24aa3bb198c6e5
 }
 
 .textAccueil {
