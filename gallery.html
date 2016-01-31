@@ -5,31 +5,30 @@
   <meta charset="UTF-8">
   <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script language="javascript" >
-   function Alterne() {
-    myVar = setInterval(Image, 4000);
-   }
-   
-   function Image() {
-    var urls = new Array();
-    urls[ 1 ] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_9d8609aac9f393e78358994dde4784786c3e1962.jpg";
-    urls[ 2 ] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_bb42c7b71adf620c00962469872863d16098572e.jpg";
-    urls[ 3 ] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_413878f89cfffa49917f0a1016a51064f3b55498.jpg";
-    urls[ 4 ] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_fb250240736f34e314ce89d620670b1e1b868396.jpg";
-    urls[ 5 ] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_a1cd929327c85f31a3fd6d9f473d085ef00bb1c6.jpg";
-    urls[ 6 ] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_ad1206bc51f5ff32f65c148f9cd317ad5e191b05.jpg";
-    urls[ 7 ] = "http://image.noelshack.com/fichiers/2016/04/1454261681-snake.png";
-    urls[ 8 ] = "http://image.noelshack.com/fichiers/2016/04/1454261450-menu.png";
+  <script>
+    function Alterne() {
+      myVar = setInterval(Image, 4000);
+    }
 
-    var newimg=document.getElementById("image");
-    var src = newimg.getAttribute('src');
-    var rdm = Math.floor(Math.random() * (9 - 1)) + 1;
-    while (src==urls[rdm]){
-      rdm = Math.floor(Math.random() * (9 - 1)) + 1;
-   }
-   newimg.setAttribute("src",urls[rdm]);
-   } 
-   
+    function Image() {
+      var urls = new Array();
+      urls[1] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_9d8609aac9f393e78358994dde4784786c3e1962.jpg";
+      urls[2] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_bb42c7b71adf620c00962469872863d16098572e.jpg";
+      urls[3] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_413878f89cfffa49917f0a1016a51064f3b55498.jpg";
+      urls[4] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_fb250240736f34e314ce89d620670b1e1b868396.jpg";
+      urls[5] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_a1cd929327c85f31a3fd6d9f473d085ef00bb1c6.jpg";
+      urls[6] = "http://www.thepaperwall.com/wallpapers/computer_tech/big/big_ad1206bc51f5ff32f65c148f9cd317ad5e191b05.jpg";
+      urls[7] = "http://image.noelshack.com/fichiers/2016/04/1454261681-snake.png";
+      urls[8] = "http://image.noelshack.com/fichiers/2016/04/1454261450-menu.png";
+
+      var newimg = document.getElementById("image");
+      var src = newimg.getAttribute('src');
+      var rdm = Math.floor(Math.random() * (9 - 1)) + 1;
+      while (src == urls[rdm]) {
+        rdm = Math.floor(Math.random() * (9 - 1)) + 1;
+      }
+      newimg.setAttribute("src", urls[rdm]);
+    }
   </script>
 </head>
 
@@ -64,27 +63,27 @@
       <img id="image" src="http://www.thepaperwall.com/wallpapers/computer_tech/big/big_a1cd929327c85f31a3fd6d9f473d085ef00bb1c6.jpg" alt="" onclick="Alterne();">
     </div>
   </section>
+  <footer>
+    <div id="footerlogo">
+      <img src="logoMail.png" alt="mail" height="42" width="42" usemap="#logomailmap">
+      <img src="twitterlogo.png" alt="twitter" height="42" width="42" usemap="#logotwittermap">
+      <img src="facebooklogo.png" alt="facebook" height="42" width="42" usemap="#logofacebookmap">
+      <img src="youtubelogo.png" alt="youtube" height="42" width="42" usemap="#logoyoutubemap">
+      <map name="logomailmap">
+        <area shape="rect" coords="0,0,42,42" href="contact.html" alt="mail">
+      </map>
+      <map name="logotwittermap">
+        <area shape="rect" coords="0,0,42,42" href="http://www.twitter.fr" alt="twitter">
+      </map>
+      <map name="logofacebookmap">
+        <area shape="rect" coords="0,0,42,42" href="http://www.facebook.fr" alt="facebook">
+      </map>
+      <map name="logoyoutubemap">
+        <area shape="rect" coords="0,0,42,42" href="http://www.youtube.fr" alt="youtube">
+      </map>
+      <a class="footertext">Restez connectez avec nous</a>
+    </div>
+  </footer>
 </body>
-<footer>
-  <div id="footerlogo">
-    <img src="logoMail.png" alt="mail" height="42" width="42" usemap="#logomailmap">
-    <img src="twitterlogo.png" alt="twitter" height="42" width="42" usemap="#logotwittermap">
-    <img src="facebooklogo.png" alt="facebook" height="42" width="42" usemap="#logofacebookmap">
-    <img src="youtubelogo.png" alt="youtube" height="42" width="42" usemap="#logoyoutubemap">
-    <map name="logomailmap">
-      <area shape="rect" coords="0,0,42,42" href="contact.html">
-    </map>
-    <map name="logotwittermap">
-      <area shape="rect" coords="0,0,42,42" href="http://www.twitter.fr">
-    </map>
-    <map name="logofacebookmap">
-      <area shape="rect" coords="0,0,42,42" href="http://www.facebook.fr">
-    </map>
-    <map name="logoyoutubemap">
-      <area shape="rect" coords="0,0,42,42" href="http://www.youtube.fr">
-    </map>
-    <a class="footertext">Restez connectez avec nous</a>
-  </div>
-</footer>
 
 </html>
