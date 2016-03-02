@@ -20,14 +20,14 @@ time, mark, audio, video {
 }
 
 #apropos {
-background-image:url(opensource.jpg);
+background-image:url(/bg/opensource.jpg);
 background-repeat:no-repeat;
 background-size:100% 100%;
 width:100%;
 }
 
 #contact {
-background-image:url(worldmap.png);
+background-image:url(/bg/worldmap.png);
 background-repeat:no-repeat;
 background-size:100% 100%;
 width:100%;
@@ -48,7 +48,7 @@ width:700px;
 }
 
 #site {
-background-image:url(robotBG.jpg);
+ background-image:url(/bg/robotBG.jpg);
 background-repeat:no-repeat;
 background-size:100% 100%;
 width:100%;
