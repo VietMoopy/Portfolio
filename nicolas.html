@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr" id="nico">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
-  <title>CV Chanourdie</title>
-  <link rel="stylesheet" type="text/css" href="/css/cv.css">
-	   <link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/>
-  <script>
-  function imprimer_page(){
+  <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="/css/cv.css"/>
+  <link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/>
+  <script type="text/javascript">
+function imprimer_page(){
   window.print();
 }
 </script>
 </head>
 
-<body>
-    <nav class="menu">
+<body id="nicolas">
+  <nav class="menu">
     <ul>
       <li>
         <a href="index.html">ACCUEIL</a>
@@ -38,69 +38,49 @@
       </li>
     </ul>
   </nav>
-        
-        <p id="tcv">CV CHANOURDIE NICOLAS</p>    
-   <section class="info1">
-     
-      <p>  Nicolas Chanourdie<br>
-        77166 Grisy-Suisnes<br>
-      26 bis rue de Verdun <br>     
-       14/11/1997(18 ans)<br>
-        Telephone:0651620560<br>
-        nico@outlook.fr</p>
-       
-  </section>
-  
- <p><img id ="photonico" src="/bg/img.jpg"/></p>
- 
- <p id="info2"><br>Ingenieur Informatique</p>
-        
-        <section id="info0">
-        <h3>Formation</h3>
-        <p>2014-15: bac science technique management et gestion , mention bien</p>
-        <p>( Melun Léonard de Vinci , 77000 )</p>
-        <p>2010-11: brevet, mention assez-bien, Voisenon, collège Nazareth (77)</p>
-        </section>
-        
-        <aside id="info3">
-        <h3>Experience Professionnel</h3>
-        <p>o stage 2011: Crédit agricole Evry (91)</p>
-        <p>o sapeur pompier volontaire (aptitude secouriste et incendie), a Ozoir-la- Ferrière</p>
-        </aside>
-        
-        <section id="info4">
-        <h3>Loisirs</h3>
-        <nav>
-        <ul>
-        <li>Surf</li>
-        <li>Futsal</li>
-        <li>Natation</li>
-        <li>Guitare</li>
-        </ul>
-        </nav>
-        </section>
-        
-        <aside id="info5">
-         <h3>Voyage</h3>
-        <nav>
-        <ul>
-        <li>o Etats-Unis(cote ouest) 2009</li>
-        <li>o Londres 2008-2012</li>
-        <li>o Italie(Sicile)2014</li>
-        <li>o Belgique 2011</li>
-        </ul>
-        </nav>
-        </aside>
-        
-        <p id="bord2"></p>
-         <p id ="bord"></p>
-			<br>
-	<br>
-<form>
+  <aside></aside>
+  <section>
+    <div class="cv">
+      <img id ="photocv" src="/photocv/nicolas.jpg"/>
+      <h1>CHANOURDIE Nicolas</h1>
+      <br>
+      <a class="categorie">FORMATIONS</a>
+      <br>
+      <p>
+        * 2015-16: DUT Informatique en cours de formation à l'IUT de Sénart-Fontainebleau à Lieusaint (77)
+        <br> * 2014-15: bac science technique management et gestion , mention bien ( Melun Léonard de Vinci , 77000 )
+				<br> * 2010-11: brevet, mention assez-bien, Voisenon, collège Nazareth (77)
+        <br> * Langues :
+        <br> o Anglais, niveau scolaire (lu, écrit, parlé)
+        <br> o Espagnol, niveau scolaire (lu, écrit)
+        <br>
+        <br>
+      </p>
+      <a class="categorie">EXPERIENCES PROFESSIONNELLES</a>
+      <br>
+      <p>
+        * stage 2011: Crédit agricole Evry (91)
+        <br> * sapeur pompier volontaire (aptitude secouriste et incendie), a Ozoir-la- Ferrière
+        <br>
+        <br>
+      </p>
+      </p>
+      <a class="categorie">CENTRES D'INTERET</a>
+      <br>
+      <p>
+        * Sports : Surf, futsal, natation
+        <br>* Voyages : Etats-Unis(cote ouest) 2009, Londres 2008-2012, Italie(Sicile) 2014, Belgique 2011
+        <br>
+        <br>
+      </p>
+    </div>
+  <form>
   <input id="impression" name="impression" type="button" onclick="imprimer_page()" value="Imprimer cette page" />
 </form>
-		 <footer>
- <div id="footerlogo">
+  </section>
+</body>
+<footer>
+  <div id="footerlogo">
     <img src="/logo/logoMail.png" alt="mail" height="42" width="42" usemap="#logomailmap">
     <img src="/logo/twitterlogo.png" alt="twitter" height="42" width="42" usemap="#logotwittermap">
     <img src="/logo/facebooklogo.png" alt="facebook" height="42" width="42" usemap="#logofacebookmap">
@@ -119,6 +99,6 @@
     </map>
     <a class="footertext">Restez connecté avec nous</a>
   </div>
-		 </footer>
-    </body>
+</footer>
+
 </html>
