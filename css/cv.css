@@ -99,6 +99,11 @@ color:white;
 font-size:40px;
 }
 
+#impression{
+  float:left;
+  margin-left: 50px;
+}
+
 .categorie {
 color:white;
 font-family:"Arial Black", Gadget, sans-serif;

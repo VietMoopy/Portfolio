@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <title>CV Chanourdie</title>
   <link rel="stylesheet" type="text/css" href="/css/cv.css">
+	   <link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/>
+  <script>
+  function imprimer_page(){
+  window.print();
+}
+</script>
 </head>
 
 <body>
@@ -88,6 +94,11 @@
         
         <p id="bord2"></p>
          <p id ="bord"></p>
+			<br>
+	<br>
+<form>
+  <input id="impression" name="impression" type="button" onclick="imprimer_page()" value="Imprimer cette page" />
+</form>
 		 <footer>
  <div id="footerlogo">
     <img src="/logo/logoMail.png" alt="mail" height="42" width="42" usemap="#logomailmap">

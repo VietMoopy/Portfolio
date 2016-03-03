@@ -4,7 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="/css/cv.css">
+  <link rel="stylesheet" type="text/css" href="/css/cv.css"/>
+  <link rel="stylesheet" href="/css/print.css" type="text/css" media="print"/>
+  <script type="text/javascript">
+function imprimer_page(){
+  window.print();
+}
+</script>
 </head>
 
 <body id="alex">
@@ -65,8 +71,12 @@
         <br>* Voyages : Espagne, Vietnam (régulièrement)
         <br> * Langages de programmation : Langage C, Python
         <br>
+        <br>
       </p>
     </div>
+  <form>
+  <input id="impression" name="impression" type="button" onclick="imprimer_page()" value="Imprimer cette page" />
+</form>
   </section>
 </body>
 <footer>

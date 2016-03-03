@@ -1,0 +1,9 @@
+#impression,nav,footer{
+  display: none;
+}
+
+section,a,p,div,h1,.categorie {
+ color:#000;
+ background-color:#fff;
+}
+
