@@ -29,6 +29,12 @@ background-color:#5A5050;
 width:100%;
 }
 
+#nicolas {
+background-image:url(http://images5.alphacoders.com/432/432766.jpg);
+aabackground-color:#9b59b6;
+width:100%;
+}
+
 #bord {
 border:10px double rgb(146,64,106);
 position:absolute;
@@ -83,6 +89,14 @@ top:820px;
 #nico {
 background-image:url(http://images5.alphacoders.com/432/432766.jpg);
 font-family:Calibri, sans-serif;
+}
+
+#photocv {
+  box-shadow:8px 8px 12px #aaa;
+  width:200px;
+  margin-right:20px;
+  margin-top: 20px;
+  float:right;
 }
 
 #photonico {
